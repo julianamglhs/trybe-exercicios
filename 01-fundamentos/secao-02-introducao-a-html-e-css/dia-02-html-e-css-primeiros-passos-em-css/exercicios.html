@@ -4,15 +4,26 @@
     <meta charset="UTF-8">
     <title>HTML</title>
     <style>
+        body{
+            font-size: 16px;
+            font-style: italic;
+            text-align: center;
+        }
         h1 {
             font-size: 65px;
             color: orange;
+            font-family: sans-serif;
+
         }
         ul {
             background-color: aqua;
+            line-height: 30px;
         }
-        .bg-p-ul{
-            background-color: beige;
+        
+        p {
+            font-weight: 600;
+            font-size: 3em;
+            text-decoration: underline;
         }
     </style>
   </head>
@@ -20,9 +31,9 @@
     <h1>Frutas</h1>
     <p class="bg-p-ul">Qual é a sua fruta favorita?</p>
     <ul class="bg-p-ul">
-      <li>Maçã</li>
-      <li>Banana</li>
-      <li>Goiaba</li>
+      <li id="amarelo">Maçã</li>
+      <li id="vermelho">Banana</li>
+      <li id="marrom">Goiaba</li>
     </ul>
   </body>
 </html>
